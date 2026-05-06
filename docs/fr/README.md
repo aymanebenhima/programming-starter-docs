@@ -23,7 +23,7 @@ features:
   - title: Boucles
     details: Automatisez les tâches répétitives en utilisant des structures de boucles universelles.
 
-footer: Sous licence MIT | Copyright © 2024-présent YouCode
+footer: "Copyright © YouCode"
 ---
 
 <div style="text-align: center; margin-top: 2rem;">

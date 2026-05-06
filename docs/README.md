@@ -23,7 +23,7 @@ features:
   - title: Loops
     details: Automate repetitive tasks using universal loop structures.
 
-footer: MIT Licensed | Copyright © 2024-present YouCode
+footer: "Copyright © YouCode"
 ---
 
 <div style="text-align: center; margin-top: 2rem;">

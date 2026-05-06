@@ -23,7 +23,7 @@ features:
   - title: الحلقات
     details: قم بأتمتة المهام المتكررة باستخدام هياكل الحلقات العالمية.
 
-footer: مرخص بموجب MIT | حقوق الطبع والنشر © 2024-حتى الآن YouCode
+footer: "Copyright © YouCode"
 ---
 
 <div style="text-align: center; margin-top: 2rem;">
