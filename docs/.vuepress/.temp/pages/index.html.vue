@@ -6,9 +6,9 @@
 </div>
 <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eaecef;" />
 <div class="hint-container tip">
-<p class="hint-container-title">Why this JavaScript Documentation?</p>
-<p>JavaScript is the cornerstone of modern web development. For YouCode learners, mastering JavaScript is essential to building dynamic, interactive web applications.</p>
-<p>This documentation is tailored specifically for the YouCode community. It serves as a concise, structured reference guide to help learners quickly grasp core JavaScript concepts—from variable declarations and data types to control flow and loops. By bridging the gap between theory and practical coding, this guide stands as a foundational stepping stone in a YouCoder's journey toward becoming a proficient software developer.</p>
+<p class="hint-container-title">Why Pseudo Code?</p>
+<p>Before diving into specific programming languages like JavaScript, Python, or C++, it's crucial to understand <strong>how to think like a programmer</strong>.</p>
+<p>This documentation teaches <strong>Algorithms and Pseudo Code</strong>—a universal way to write out logic without worrying about the strict grammar rules of a specific coding language. By learning pseudo code first, YouCoders build a strong foundation in problem-solving. Once you master the logic here, you can easily translate your ideas into <em>any</em> programming language in the future!</p>
 </div>
 </div></template>
 

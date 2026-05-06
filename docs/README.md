@@ -1,11 +1,11 @@
 ---
 home: true
-title: YouCode JavaScript Guide
-heroText: YouCode JS Fundamentals
-tagline: Empowering YouCoders with the foundational knowledge of JavaScript
+title: YouCode Pseudo Code Guide
+heroText: Algorithms & Pseudo Code
+tagline: Empowering YouCoders with the universal logic of programming
 heroImage: https://candidature.youcode.ma/assets/logo-4d_cAH1e.png
 actions:
-  - text: Start Learning JS
+  - text: Start Learning Logic
     link: /introduction.html
     type: primary
 
@@ -15,13 +15,13 @@ actions:
 
 features:
   - title: Introduction
-    details: Learn the basics of JavaScript, the language of the web.
+    details: Learn what algorithms are and how computers read instructions.
   - title: Variables
-    details: Understand how to declare and use variables in JS.
+    details: Understand how to store and manipulate data logically.
   - title: Conditionals
-    details: Control the flow of your programs with if statements and more.
+    details: Control the flow of algorithms with decision-making logic.
   - title: Loops
-    details: Automate repetitive tasks efficiently with for loops.
+    details: Automate repetitive tasks using universal loop structures.
 
 footer: MIT Licensed | Copyright © 2024-present YouCode
 ---
@@ -35,9 +35,8 @@ footer: MIT Licensed | Copyright © 2024-present YouCode
 
 <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eaecef;" />
 
-::: tip Why this JavaScript Documentation?
-JavaScript is the cornerstone of modern web development. For YouCode learners, mastering JavaScript is essential to building dynamic, interactive web applications. 
+::: tip Why Pseudo Code?
+Before diving into specific programming languages like JavaScript, Python, or C++, it's crucial to understand **how to think like a programmer**. 
 
-This documentation is tailored specifically for the YouCode community. It serves as a concise, structured reference guide to help learners quickly grasp core JavaScript concepts—from variable declarations and data types to control flow and loops. By bridging the gap between theory and practical coding, this guide stands as a foundational stepping stone in a YouCoder's journey toward becoming a proficient software developer.
+This documentation teaches **Algorithms and Pseudo Code**—a universal way to write out logic without worrying about the strict grammar rules of a specific coding language. By learning pseudo code first, YouCoders build a strong foundation in problem-solving. Once you master the logic here, you can easily translate your ideas into *any* programming language in the future!
 :::
-

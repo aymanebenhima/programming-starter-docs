@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"en-US\",\"title\":\"YouCode JS Docs\",\"description\":\"JavaScript Documentation for YouCoders\"},\"/fr/\":{\"lang\":\"fr-FR\",\"title\":\"Docs JS YouCode\",\"description\":\"Documentation JavaScript pour YouCoders\"},\"/ar/\":{\"lang\":\"ar-MA\",\"title\":\"مستندات جافا سكريبت YouCode\",\"description\":\"وثائق جافا سكريبت لـ YouCoders\",\"dir\":\"rtl\"}}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"en-US\",\"title\":\"YouCode Pseudo Code Guide\",\"description\":\"Introduction to Algorithms and Pseudo Code for YouCoders\"},\"/fr/\":{\"lang\":\"fr-FR\",\"title\":\"Guide Pseudo Code YouCode\",\"description\":\"Introduction à l'algorithmique et au pseudo code pour YouCoders\"},\"/ar/\":{\"lang\":\"ar-MA\",\"title\":\"دليل الخوارزميات YouCode\",\"description\":\"مقدمة في الخوارزميات والكود الزائف لـ YouCoders\",\"dir\":\"rtl\"}}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

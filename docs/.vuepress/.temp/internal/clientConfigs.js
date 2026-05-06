@@ -9,6 +9,7 @@ import * as clientConfig7 from 'C:/Users/Youcode/Documents/dev-apps/js-docs/vuep
 import * as clientConfig8 from 'C:/Users/Youcode/Documents/dev-apps/js-docs/vuepress-starter/docs/.vuepress/.temp/markdown-tab/config.js'
 import * as clientConfig9 from 'C:/Users/Youcode/Documents/dev-apps/js-docs/vuepress-starter/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import * as clientConfig10 from 'C:/Users/Youcode/Documents/dev-apps/js-docs/vuepress-starter/node_modules/@vuepress/theme-default/lib/client/config.js'
+import * as clientConfig11 from 'C:/Users/Youcode/Documents/dev-apps/js-docs/vuepress-starter/docs/.vuepress/client.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -22,4 +23,5 @@ export const clientConfigs = [
   clientConfig8,
   clientConfig9,
   clientConfig10,
+  clientConfig11,
 ].map((m) => m.default).filter(Boolean)

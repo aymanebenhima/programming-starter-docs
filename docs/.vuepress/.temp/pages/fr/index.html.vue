@@ -6,9 +6,9 @@
 </div>
 <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eaecef;" />
 <div class="hint-container tip">
-<p class="hint-container-title">Pourquoi cette Documentation JavaScript ?</p>
-<p>JavaScript est la pierre angulaire du développement web moderne. Pour les apprenants YouCode, la maîtrise de JavaScript est essentielle pour créer des applications web dynamiques et interactives.</p>
-<p>Cette documentation est spécialement conçue pour la communauté YouCode. Elle sert de guide de référence structuré et concis pour aider les apprenants à saisir rapidement les concepts fondamentaux de JavaScript, des déclarations de variables et types de données au contrôle de flux et boucles. En faisant le pont entre la théorie et la programmation pratique, ce guide constitue un tremplin fondamental dans le parcours d'un YouCoder pour devenir un développeur logiciel compétent.</p>
+<p class="hint-container-title">Pourquoi le Pseudo Code ?</p>
+<p>Avant de plonger dans des langages de programmation spécifiques comme JavaScript, Python ou C++, il est crucial de comprendre <strong>comment penser comme un programmeur</strong>.</p>
+<p>Cette documentation enseigne <strong>l'Algorithmique et le Pseudo Code</strong> — une façon universelle d'écrire la logique sans se soucier des règles de grammaire strictes d'un langage de codage spécifique. En apprenant d'abord le pseudo code, les YouCoders construisent des bases solides en résolution de problèmes. Une fois cette logique maîtrisée, vous pourrez facilement traduire vos idées dans <em>n'importe quel</em> langage de programmation à l'avenir !</p>
 </div>
 </div></template>
 

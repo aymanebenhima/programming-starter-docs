@@ -6,59 +6,47 @@ Imagine you are told to write the phrase "I will not talk in class" on a chalkbo
 
 In programming, we hate doing the same thing over and over manually. Whenever a process needs to be repeated, we use a tool called a **loop**.
 
-A loop is simply a set of instructions that the computer repeats automatically until a specific stopping condition is met. Loops make our code efficient and save us a lot of typing!
+A loop is simply a set of instructions that the computer repeats automatically until a specific stopping condition is met. Loops make our algorithms efficient and save us a lot of typing!
 
-## The `for` Loop
+## The `FOR` Loop
 
-One of the most common ways to make a computer repeat a task is using a **for loop**. 
+One of the most common ways to make a computer repeat a task is using a **FOR loop**. A FOR loop is perfect when you know exactly *how many times* you want to repeat something.
 
-A `for` loop needs three pieces of information to work:
-1. **Where to start** (Initialization)
-2. **When to stop** (Stopping condition)
-3. **How to count up** (Iteration step)
+Here is what the syntax looks like in pseudo code:
 
-These three pieces of information go inside parentheses `()` and are separated by semicolons `;`.
-
-Here is what the syntax looks like:
-
-```js
-for (let counter = 0; counter < 4; counter++) {
-  console.log(counter);
-}
+```pseudo
+FOR counter FROM 1 TO 4 DO
+  PRINT counter
+END FOR
 ```
 
-If you run this code, the computer will print:
+If you run this algorithm, the computer will print:
 ```text
-0
 1
 2
 3
+4
 ```
 
-## Breaking Down the `for` Loop
+### Breaking Down the `FOR` Loop
 
-Let's look closely at the three parts inside the parentheses of our example:
+Let's look closely at how it works:
+1. `FOR counter FROM 1`: We create a temporary variable named `counter` and start it at 1.
+2. `TO 4`: We tell the loop to keep repeating until the counter reaches 4.
+3. `DO`: This tells the computer to execute the instructions inside the loop.
+4. After each repetition, the computer automatically increases the counter by 1.
+5. `END FOR`: This marks the end of the loop block.
 
-1. `let counter = 0;`  
-   **Where to start:** We create a variable named `counter` and set it to `0`. This is where our loop begins.
+### A Real World Example
 
-2. `counter < 4;`  
-   **When to stop:** This is a condition, just like in an `if` statement! The loop will keep running **as long as** the counter is less than 4. If the counter reaches 4, the loop stops immediately.
+Let's use a `FOR` loop to count down the days until the weekend:
 
-3. `counter++`  
-   **How to count up:** After each loop finishes, we need to increase our counter so the loop doesn't run forever. `counter++` simply adds `1` to the counter after every single round.
+```pseudo
+FOR day FROM 1 TO 5 DO
+  PRINT "It is day " + day + " of the work week."
+END FOR
 
-Inside the curly braces `{}` is the actual code we want the computer to repeat. In this case, we told it to `console.log(counter)`, which is why it prints the numbers 0, 1, 2, and 3!
-
-## A Real World Example
-
-Let's use a `for` loop to count down the days until the weekend:
-
-```js
-for (let day = 1; day <= 5; day++) {
-  console.log(`It is day ${day} of the work week.`);
-}
-console.log('Hooray! It is the weekend!');
+PRINT "Hooray! It is the weekend!"
 ```
 
 The output will be:
@@ -71,4 +59,21 @@ It is day 5 of the work week.
 Hooray! It is the weekend!
 ```
 
-Loops are incredibly powerful tools that you will use all the time as you learn to code!
+## The `WHILE` Loop
+
+Sometimes, you don't know exactly how many times a loop needs to run. You just want it to keep going **while** a certain condition is true. For this, we use a **WHILE loop**.
+
+```pseudo
+SET hunger_level TO 5
+
+WHILE hunger_level > 0 DO
+  PRINT "Eating a slice of pizza..."
+  SET hunger_level TO hunger_level - 1
+END WHILE
+
+PRINT "I am full!"
+```
+
+This loop will check the condition (`hunger_level > 0`). If it is true, it eats a slice of pizza and decreases the hunger level. It will repeat this 5 times until the hunger level hits 0, at which point the loop stops and prints "I am full!".
+
+Loops are incredibly powerful tools that you will use all the time as you build algorithms!

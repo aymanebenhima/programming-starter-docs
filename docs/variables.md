@@ -8,108 +8,67 @@ In programming, a **variable** is exactly that: a labeled box where we store inf
 
 Variables let us store things like a user's name, a high score in a game, or a secret password.
 
-## Creating a Variable with `let`
+## Creating and Using a Variable
 
-To create a new box (variable), we use a special word: `let`. This tells the computer, "Hey, let's create a new variable!"
+To create a new box (variable) and put something inside it, we use the `SET` keyword in pseudo code.
 
-```js
-let myName = 'Arya';
-console.log(myName); // This will print: Arya
+```pseudo
+SET my_name TO "Arya"
+PRINT my_name
 ```
+*(This will print: Arya)*
 
 Let’s break down what just happened:
-1. `let` creates the variable.
-2. `myName` is the label we wrote on our box.
-3. `=` is how we put something inside the box.
-4. `'Arya'` is the data (a String) that we stored inside.
+1. `SET` tells the computer we are making or updating a variable.
+2. `my_name` is the label we wrote on our box.
+3. `TO` tells the computer to put the data into the box.
+4. `"Arya"` is the data (a String) that we stored inside.
 
-The best part about `let` is that we can change what's inside the box later!
+The best part about variables is that they can "vary" (change)! You can change what's inside the box later:
 
-```js
-let favoriteFood = 'Pizza';
-console.log(favoriteFood); // Prints: Pizza
+```pseudo
+SET favorite_food TO "Pizza"
+PRINT favorite_food 
+// Prints: Pizza
 
 // Later on, we change our minds!
-favoriteFood = 'Tacos';
-console.log(favoriteFood); // Prints: Tacos
+SET favorite_food TO "Tacos"
+PRINT favorite_food 
+// Prints: Tacos
 ```
 
-## Creating a Variable with `const`
+## Constants
 
-Sometimes, you want to store information that should **never** change. For example, your date of birth. 
+Sometimes, you want to store information that should **never** change. For example, your date of birth or the value of Pi. 
 
-For things that must remain constant, we use the word `const` instead of `let`.
+For things that must remain constant, we can specify that the box is locked.
 
-```js
-const myBirthYear = 1995;
-console.log(myBirthYear); // Prints: 1995
+```pseudo
+CONSTANT my_birth_year TO 1995
+PRINT my_birth_year
 ```
 
-If you try to change a `const` variable, the computer will get angry and throw an error, protecting your data from being accidentally changed!
-
-*Tip: If you know a value will change later (like a score in a game), use `let`. If it will stay the same forever, use `const`.*
+If you try to change a `CONSTANT`, the algorithm will fail because the data is protected.
 
 ## Variables and Math
 
 Since variables are just boxes holding data, if they hold numbers, we can do math with them!
 
-```js
-let score = 10;
-score = score + 5; 
+```pseudo
+SET score TO 10
+SET score TO score + 5 
 
-console.log(score); // Prints: 15
+PRINT score 
+// Prints: 15
 ```
 
-Because adding to a score is so common in coding, JavaScript gives us a shortcut. Instead of writing `score = score + 5`, we can write `score += 5`.
-
-```js
-let lives = 3;
-lives -= 1; // This is a shortcut for: lives = lives - 1
-console.log(lives); // Prints: 2
-```
-
-We also have shortcuts for adding exactly 1 (`++`) or subtracting exactly 1 (`--`):
-
-```js
-let level = 1;
-level++; // This adds exactly 1 to level
-console.log(level); // Prints: 2
-```
-
-## Mixing Words and Variables
-
-What if you want to say hello to a user, but you don't know their name until they log in? You can use variables and glue them together with text!
-
-You can use the `+` symbol to join text and variables together:
-
-```js
-let myPet = 'cat';
-console.log('I own a ' + myPet + '.'); 
-// Prints: I own a cat.
-```
-
-## A Better Way: String Interpolation
-
-Gluing text with the `+` symbol can get messy if you have a lot of variables. A newer and cleaner way to do this is called **String Interpolation**. 
-
-Instead of normal quotes, you use **backticks** `` ` `` (usually found under the Esc key on your keyboard). Then, you put your variables inside `${ }`.
-
-```js
-let myCity = 'Paris';
-let weather = 'sunny';
-
-console.log(`I live in ${myCity} and it is very ${weather} today!`);
-// Prints: I live in Paris and it is very sunny today!
-```
-
-This is much easier to read and write!
+We tell the computer: "Take whatever is currently inside the `score` box (10), add 5 to it, and put the new result (15) back into the `score` box!"
 
 ## Review Variables
 
 Let’s review what we learned:
 - **Variables** are labelled boxes used to store data.
-- Use `let` if the data might change later.
-- Use `const` if the data should be locked and never change.
-- You can do math with variables if they contain numbers (`+=`, `-=`, `++`).
-- You can mix text and variables together using the `+` symbol.
-- A cleaner way to mix text and variables is using backticks `` ` `` and `${}`.
+- Use `SET ... TO ...` to put data inside a variable.
+- Variables can be updated or changed at any time in your algorithm.
+- Use `CONSTANT ... TO ...` if the data should be locked and never change.
+- You can do math with variables if they contain numbers.

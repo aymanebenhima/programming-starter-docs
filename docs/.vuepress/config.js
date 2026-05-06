@@ -6,18 +6,18 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'YouCode JS Docs',
-      description: 'JavaScript Documentation for YouCoders',
+      title: 'YouCode Pseudo Code Guide',
+      description: 'Introduction to Algorithms and Pseudo Code for YouCoders',
     },
     '/fr/': {
       lang: 'fr-FR',
-      title: 'Docs JS YouCode',
-      description: 'Documentation JavaScript pour YouCoders',
+      title: 'Guide Pseudo Code YouCode',
+      description: 'Introduction à l\'algorithmique et au pseudo code pour YouCoders',
     },
     '/ar/': {
       lang: 'ar-MA',
-      title: 'مستندات جافا سكريبت YouCode',
-      description: 'وثائق جافا سكريبت لـ YouCoders',
+      title: 'دليل الخوارزميات YouCode',
+      description: 'مقدمة في الخوارزميات والكود الزائف لـ YouCoders',
       dir: 'rtl',
     }
   },
@@ -28,17 +28,17 @@ export default defineUserConfig({
     locales: {
       '/': {
         selectLanguageName: 'English',
-        navbar: ['/', '/introduction', '/variables', '/conditionals', '/loops'],
+        navbar: [],
         sidebar: ['/', '/introduction', '/variables', '/conditionals', '/loops'],
       },
       '/fr/': {
         selectLanguageName: 'Français',
-        navbar: ['/fr/', '/fr/introduction', '/fr/variables', '/fr/conditionals', '/fr/loops'],
+        navbar: [],
         sidebar: ['/fr/', '/fr/introduction', '/fr/variables', '/fr/conditionals', '/fr/loops'],
       },
       '/ar/': {
         selectLanguageName: 'العربية',
-        navbar: ['/ar/', '/ar/introduction', '/ar/variables', '/ar/conditionals', '/ar/loops'],
+        navbar: [],
         sidebar: ['/ar/', '/ar/introduction', '/ar/variables', '/ar/conditionals', '/ar/loops'],
       }
     }

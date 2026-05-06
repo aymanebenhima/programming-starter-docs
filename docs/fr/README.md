@@ -1,11 +1,11 @@
 ---
 home: true
-title: Guide JavaScript YouCode
-heroText: Fondamentaux JS YouCode
-tagline: Autonomiser les YouCoders avec les bases de JavaScript
+title: Guide Pseudo Code YouCode
+heroText: Algorithmique & Pseudo Code
+tagline: Autonomiser les YouCoders avec la logique universelle de la programmation
 heroImage: https://candidature.youcode.ma/assets/logo-4d_cAH1e.png
 actions:
-  - text: Commencer à Apprendre JS
+  - text: Commencer à Apprendre la Logique
     link: /fr/introduction.html
     type: primary
 
@@ -15,13 +15,13 @@ actions:
 
 features:
   - title: Introduction
-    details: Apprenez les bases de JavaScript, le langage du web.
+    details: Apprenez ce que sont les algorithmes et comment les ordinateurs lisent les instructions.
   - title: Variables
-    details: Comprenez comment déclarer et utiliser des variables en JS.
+    details: Comprenez comment stocker et manipuler des données logiquement.
   - title: Conditionnelles
-    details: Contrôlez le flux de vos programmes avec les instructions if et plus encore.
+    details: Contrôlez le flux des algorithmes avec la logique de prise de décision.
   - title: Boucles
-    details: Automatisez efficacement les tâches répétitives avec les boucles for.
+    details: Automatisez les tâches répétitives en utilisant des structures de boucles universelles.
 
 footer: Sous licence MIT | Copyright © 2024-présent YouCode
 ---
@@ -35,8 +35,8 @@ footer: Sous licence MIT | Copyright © 2024-présent YouCode
 
 <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eaecef;" />
 
-::: tip Pourquoi cette Documentation JavaScript ?
-JavaScript est la pierre angulaire du développement web moderne. Pour les apprenants YouCode, la maîtrise de JavaScript est essentielle pour créer des applications web dynamiques et interactives. 
+::: tip Pourquoi le Pseudo Code ?
+Avant de plonger dans des langages de programmation spécifiques comme JavaScript, Python ou C++, il est crucial de comprendre **comment penser comme un programmeur**. 
 
-Cette documentation est spécialement conçue pour la communauté YouCode. Elle sert de guide de référence structuré et concis pour aider les apprenants à saisir rapidement les concepts fondamentaux de JavaScript, des déclarations de variables et types de données au contrôle de flux et boucles. En faisant le pont entre la théorie et la programmation pratique, ce guide constitue un tremplin fondamental dans le parcours d'un YouCoder pour devenir un développeur logiciel compétent.
+Cette documentation enseigne **l'Algorithmique et le Pseudo Code** — une façon universelle d'écrire la logique sans se soucier des règles de grammaire strictes d'un langage de codage spécifique. En apprenant d'abord le pseudo code, les YouCoders construisent des bases solides en résolution de problèmes. Une fois cette logique maîtrisée, vous pourrez facilement traduire vos idées dans *n'importe quel* langage de programmation à l'avenir !
 :::

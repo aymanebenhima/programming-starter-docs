@@ -6,59 +6,47 @@ Imaginez qu'on vous demande d'écrire la phrase "Je ne bavarderai pas en classe"
 
 En programmation, nous détestons faire la même chose encore et encore manuellement. Chaque fois qu'un processus doit être répété, nous utilisons un outil appelé une **boucle** (loop).
 
-Une boucle est simplement un ensemble d'instructions que l'ordinateur répète automatiquement jusqu'à ce qu'une condition d'arrêt spécifique soit remplie. Les boucles rendent notre code efficace et nous évitent de taper beaucoup de texte !
+Une boucle est simplement un ensemble d'instructions que l'ordinateur répète automatiquement jusqu'à ce qu'une condition d'arrêt spécifique soit remplie. Les boucles rendent nos algorithmes efficaces et nous évitent de taper beaucoup de texte !
 
-## La Boucle `for`
+## La Boucle `FOR`
 
-L'une des façons les plus courantes de faire répéter une tâche à un ordinateur est d'utiliser une **boucle `for`** (pour).
+L'une des façons les plus courantes de faire répéter une tâche à un ordinateur est d'utiliser une **boucle FOR**. Une boucle FOR est parfaite lorsque vous savez exactement *combien de fois* vous voulez répéter quelque chose.
 
-Une boucle `for` a besoin de trois éléments d'information pour fonctionner :
-1. **Où commencer** (Initialisation)
-2. **Quand s'arrêter** (Condition d'arrêt)
-3. **Comment compter** (Étape d'itération)
+Voici à quoi ressemble la syntaxe en pseudo code :
 
-Ces trois éléments d'information vont à l'intérieur de parenthèses `()` et sont séparés par des points-virgules `;`.
-
-Voici à quoi ressemble la syntaxe :
-
-```js
-for (let compteur = 0; compteur < 4; compteur++) {
-  console.log(compteur);
-}
+```pseudo
+FOR compteur FROM 1 TO 4 DO
+  PRINT compteur
+END FOR
 ```
 
-Si vous exécutez ce code, l'ordinateur imprimera :
+Si vous exécutez cet algorithme, l'ordinateur imprimera :
 ```text
-0
 1
 2
 3
+4
 ```
 
-## Décortiquer la Boucle `for`
+### Décortiquer la Boucle `FOR`
 
-Regardons de plus près les trois parties à l'intérieur des parenthèses de notre exemple :
+Regardons de plus près comment cela fonctionne :
+1. `FOR compteur FROM 1` : Nous créons une variable temporaire nommée `compteur` et la démarrons à 1.
+2. `TO 4` : Nous disons à la boucle de continuer à se répéter jusqu'à ce que le compteur atteigne 4.
+3. `DO` : Cela indique à l'ordinateur d'exécuter les instructions à l'intérieur de la boucle.
+4. Après chaque répétition, l'ordinateur augmente automatiquement le compteur de 1.
+5. `END FOR` : Ceci marque la fin du bloc de la boucle.
 
-1. `let compteur = 0;`  
-   **Où commencer :** Nous créons une variable nommée `compteur` et la réglons sur `0`. C'est là que notre boucle commence.
+### Un Exemple Concret
 
-2. `compteur < 4;`  
-   **Quand s'arrêter :** C'est une condition, tout comme dans une instruction `if` ! La boucle continuera de s'exécuter **tant que** le compteur est inférieur à 4. Si le compteur atteint 4, la boucle s'arrête immédiatement.
+Utilisons une boucle `FOR` pour faire le compte à rebours des jours jusqu'au week-end :
 
-3. `compteur++`  
-   **Comment compter :** Une fois chaque boucle terminée, nous devons augmenter notre compteur pour que la boucle ne s'exécute pas indéfiniment. `compteur++` ajoute simplement `1` au compteur après chaque tour.
+```pseudo
+FOR jour FROM 1 TO 5 DO
+  PRINT "C'est le jour " + jour + " de la semaine de travail."
+END FOR
 
-À l'intérieur des accolades `{}` se trouve le code réel que nous voulons que l'ordinateur répète. Dans ce cas, nous lui avons dit de faire un `console.log(compteur)`, c'est pourquoi il imprime les nombres 0, 1, 2, et 3 !
-
-## Un Exemple Concret
-
-Utilisons une boucle `for` pour faire le compte à rebours des jours jusqu'au week-end :
-
-```js
-for (let jour = 1; jour <= 5; jour++) {
-  console.log(`C'est le jour ${jour} de la semaine de travail.`);
-}
-console.log('Hourra ! C\'est le week-end !');
+PRINT "Hourra ! C'est le week-end !"
 ```
 
 Le résultat sera :
@@ -71,4 +59,21 @@ C'est le jour 5 de la semaine de travail.
 Hourra ! C'est le week-end !
 ```
 
-Les boucles sont des outils incroyablement puissants que vous utiliserez tout le temps au fur et à mesure que vous apprendrez à coder !
+## La Boucle `WHILE`
+
+Parfois, vous ne savez pas exactement combien de fois une boucle doit s'exécuter. Vous voulez juste qu'elle continue **tant que** (while) une certaine condition est vraie. Pour cela, nous utilisons une **boucle WHILE**.
+
+```pseudo
+SET niveau_faim TO 5
+
+WHILE niveau_faim > 0 DO
+  PRINT "Manger une part de pizza..."
+  SET niveau_faim TO niveau_faim - 1
+END WHILE
+
+PRINT "Je suis rassasié !"
+```
+
+Cette boucle vérifiera la condition (`niveau_faim > 0`). Si c'est vrai, elle mange une part de pizza et diminue le niveau de faim. Elle répétera cela 5 fois jusqu'à ce que le niveau de faim atteigne 0, moment auquel la boucle s'arrête et imprime "Je suis rassasié !".
+
+Les boucles sont des outils incroyablement puissants que vous utiliserez tout le temps lors de la création d'algorithmes !

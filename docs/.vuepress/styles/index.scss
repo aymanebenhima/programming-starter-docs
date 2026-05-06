@@ -1,12 +1,16 @@
 :root {
-  // YouCode brand accent colors (Cyan/Blue)
-  --vp-c-accent: #00A4E6;
-  --vp-c-accent-bg: #008fcc;
-  --vp-c-accent-hover: #33b8eb;
+  // Primary Color
+  --vp-c-accent: #2E64FE;
+  --vp-c-accent-bg: #1C51E0;
+  --vp-c-accent-hover: #4F7EFE;
   --vp-c-accent-text: #ffffff;
 
-  // Custom Header / Navbar variables
-  --vp-navbar-c-bg: #0B1120; // Deep dark navy from YouCode branding
+  // Secondary Color
+  --vp-c-bg-alt: #E7E8EA;
+  --vp-c-border: #E7E8EA;
+
+  // Inverted Color (Dark themes/Header)
+  --vp-navbar-c-bg: #2E3132;
 }
 
 // Adapt Navbar Text Colors and Design
@@ -46,7 +50,7 @@
 
 // Optional: Improve visual aesthetics of the main container and headers
 h1, h2, h3, h4, h5, h6 {
-  color: #0B1120; // Deep navy for headings to match the theme
+  color: #2E3132; // Inverted color for headings
 }
 
 .theme-default-content a {
