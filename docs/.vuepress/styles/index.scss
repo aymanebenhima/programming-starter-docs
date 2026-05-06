@@ -1,0 +1,54 @@
+:root {
+  // YouCode brand accent colors (Cyan/Blue)
+  --vp-c-accent: #00A4E6;
+  --vp-c-accent-bg: #008fcc;
+  --vp-c-accent-hover: #33b8eb;
+  --vp-c-accent-text: #ffffff;
+
+  // Custom Header / Navbar variables
+  --vp-navbar-c-bg: #0B1120; // Deep dark navy from YouCode branding
+}
+
+// Adapt Navbar Text Colors and Design
+.vp-navbar {
+  border-bottom: 2px solid var(--vp-c-accent);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+  // Logo text styling
+  .vp-site-name {
+    color: #ffffff !important;
+    font-weight: 700;
+  }
+  
+  // Navbar links styling (Desktop top-level links)
+  .vp-navbar-items > .vp-navbar-item > a,
+  .vp-navbar-items > .vp-navbar-item > .vp-navbar-dropdown-wrapper > button {
+    color: #e2e8f0;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    
+    &:hover, &.router-link-active {
+      color: var(--vp-c-accent) !important;
+    }
+  }
+
+  // Sidebar toggle button on mobile (Hamburger icon)
+  .vp-toggle-sidebar-button {
+    .icon span {
+      background-color: #ffffff !important;
+    }
+    
+    &:hover .icon span {
+      background-color: var(--vp-c-accent) !important;
+    }
+  }
+}
+
+// Optional: Improve visual aesthetics of the main container and headers
+h1, h2, h3, h4, h5, h6 {
+  color: #0B1120; // Deep navy for headings to match the theme
+}
+
+.theme-default-content a {
+  font-weight: 600;
+}
