@@ -20,8 +20,8 @@ pageClass: custom-home-page
 <p>أتقن المنطق العالمي للبرمجة قبل التطرق إلى قواعد النحو المعقدة. استكشف الخوارزميات والكود الزائف من خلال الممارسة العملية، المصممة خصيصًا لمتعلمي YouCode.</p>
 
 <div class="home-actions">
-<a href="/ar/introduction.html" class="home-btn primary">ابدأ بتعلم المنطق</a>
-<a href="/ar/variables.html" class="home-btn secondary">عرض المنهج الدراسي</a>
+<a href="./introduction.html" class="home-btn primary">ابدأ بتعلم المنطق</a>
+<a href="./variables.html" class="home-btn secondary">عرض المنهج الدراسي</a>
 </div>
 </div>
 </div>
@@ -76,17 +76,17 @@ pageClass: custom-home-page
 <section class="home-section">
 <h2>المنهج الدراسي</h2>
 <div class="home-grid">
-<a href="/ar/variables.html" class="home-card">
+<a href="./variables.html" class="home-card">
 <div class="icon-wrapper">📦</div>
 <h3>المتغيرات</h3>
 <p>تعلم كيف تقوم أجهزة الكمبيوتر بتخزين واسترجاع البيانات منطقيًا.</p>
 </a>
-<a href="/ar/conditionals.html" class="home-card">
+<a href="./conditionals.html" class="home-card">
 <div class="icon-wrapper">🔀</div>
 <h3>الشروط</h3>
 <p>تحكم في مسار خوارزمياتك باستخدام منطق اتخاذ القرار "إذا / وإلا".</p>
 </a>
-<a href="/ar/loops.html" class="home-card">
+<a href="./loops.html" class="home-card">
 <div class="icon-wrapper">🔄</div>
 <h3>الحلقات</h3>
 <p>قم بأتمتة المهام المتكررة بكفاءة باستخدام حلقات التكرار المتنوعة.</p>

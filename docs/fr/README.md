@@ -20,8 +20,8 @@ pageClass: custom-home-page
 <p>Maîtrisez la logique universelle de la programmation avant de toucher à la syntaxe. Explorez les algorithmes et le pseudo-code par la pratique, conçu exclusivement pour les YouCoders.</p>
 
 <div class="home-actions">
-<a href="/fr/introduction.html" class="home-btn primary">Commencer l'Apprentissage</a>
-<a href="/fr/variables.html" class="home-btn secondary">Voir le Curriculum</a>
+<a href="./introduction.html" class="home-btn primary">Commencer l'Apprentissage</a>
+<a href="./variables.html" class="home-btn secondary">Voir le Curriculum</a>
 </div>
 </div>
 </div>
@@ -76,17 +76,17 @@ pageClass: custom-home-page
 <section class="home-section">
 <h2>Curriculum</h2>
 <div class="home-grid">
-<a href="/fr/variables.html" class="home-card">
+<a href="./variables.html" class="home-card">
 <div class="icon-wrapper">📦</div>
 <h3>Variables</h3>
 <p>Apprenez comment les ordinateurs stockent et récupèrent les données logiquement.</p>
 </a>
-<a href="/fr/conditionals.html" class="home-card">
+<a href="./conditionals.html" class="home-card">
 <div class="icon-wrapper">🔀</div>
 <h3>Conditionnelles</h3>
 <p>Contrôlez le flux de vos algorithmes grâce à la logique de prise de décision SI/SINON.</p>
 </a>
-<a href="/fr/loops.html" class="home-card">
+<a href="./loops.html" class="home-card">
 <div class="icon-wrapper">🔄</div>
 <h3>Boucles</h3>
 <p>Automatisez efficacement les tâches répétitives à l'aide des boucles POUR et TANT QUE.</p>

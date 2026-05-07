@@ -20,8 +20,8 @@ pageClass: custom-home-page
 <p>Master the universal logic of programming before touching syntax. Explore algorithms and pseudo code through hands-on practice, designed exclusively for YouCoders.</p>
 
 <div class="home-actions">
-<a href="/introduction.html" class="home-btn primary">Start Learning Logic</a>
-<a href="/variables.html" class="home-btn secondary">View Curriculum</a>
+<a href="./introduction.html" class="home-btn primary">Start Learning Logic</a>
+<a href="./variables.html" class="home-btn secondary">View Curriculum</a>
 </div>
 </div>
 </div>
@@ -76,17 +76,17 @@ pageClass: custom-home-page
 <section class="home-section">
 <h2>Curriculum</h2>
 <div class="home-grid">
-<a href="/variables.html" class="home-card">
+<a href="./variables.html" class="home-card">
 <div class="icon-wrapper">📦</div>
 <h3>Variables</h3>
 <p>Learn how computers store and retrieve data logically using labeled boxes.</p>
 </a>
-<a href="/conditionals.html" class="home-card">
+<a href="./conditionals.html" class="home-card">
 <div class="icon-wrapper">🔀</div>
 <h3>Conditionals</h3>
 <p>Control the flow of your algorithms using IF/ELSE decision-making logic.</p>
 </a>
-<a href="/loops.html" class="home-card">
+<a href="./loops.html" class="home-card">
 <div class="icon-wrapper">🔄</div>
 <h3>Loops</h3>
 <p>Automate repetitive tasks efficiently using FOR and WHILE loops.</p>
