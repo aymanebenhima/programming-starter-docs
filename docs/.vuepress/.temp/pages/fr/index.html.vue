@@ -1,15 +1,89 @@
-<template><div><div style="text-align: center; margin-top: 2rem;">
-  <h2>Qu'est-ce que YouCode ?</h2>
-  <p style="font-size: 1.2rem; color: #555; max-width: 800px; margin: 0 auto; line-height: 1.8;">
-    <strong>YouCode</strong> est une école de programmation inclusive qui met l'accent sur une méthodologie d'apprentissage par projet, de pair à pair. Conçue pour rendre l'éducation technologique accessible, YouCode donne aux individus les moyens de devenir des développeurs hautement qualifiés prêts pour le marché du travail numérique moderne. La pédagogie repose fortement sur la collaboration, l'apprentissage autonome et la résolution de problèmes concrets.
-  </p>
+<template><div><div class="home-hero">
+<div class="home-hero-bg">
+<!-- Abstract Tech SVG Background -->
+<svg viewBox="0 0 100 100" preserveAspectRatio="none">
+<path d="M0,50 Q25,25 50,50 T100,50" fill="none" stroke="#2E64FE" stroke-width="0.5" stroke-dasharray="2,2"/>
+<path d="M0,70 Q35,40 70,70 T100,70" fill="none" stroke="#2E64FE" stroke-width="0.3"/>
+<circle cx="25" cy="40" r="1" fill="#2E64FE" />
+<circle cx="75" cy="60" r="1.5" fill="#2E64FE" />
+<circle cx="50" cy="50" r="2" fill="#2E64FE" />
+</svg>
 </div>
-<hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eaecef;" />
-<div class="hint-container tip">
-<p class="hint-container-title">Pourquoi le Pseudo Code ?</p>
-<p>Avant de plonger dans des langages de programmation spécifiques comme JavaScript, Python ou C++, il est crucial de comprendre <strong>comment penser comme un programmeur</strong>.</p>
-<p>Cette documentation enseigne <strong>l'Algorithmique et le Pseudo Code</strong> — une façon universelle d'écrire la logique sans se soucier des règles de grammaire strictes d'un langage de codage spécifique. En apprenant d'abord le pseudo code, les YouCoders construisent des bases solides en résolution de problèmes. Une fois cette logique maîtrisée, vous pourrez facilement traduire vos idées dans <em>n'importe quel</em> langage de programmation à l'avenir !</p>
+<div class="home-hero-content">
+<h1>Apprenez à Coder par <span>la Pratique</span></h1>
+<p>Maîtrisez la logique universelle de la programmation avant de toucher à la syntaxe. Explorez les algorithmes et le pseudo-code par la pratique, conçu exclusivement pour les YouCoders.</p>
+<div class="home-actions">
+<a href="/fr/introduction.html" class="home-btn primary">Commencer l'Apprentissage</a>
+<a href="/fr/variables.html" class="home-btn secondary">Voir le Curriculum</a>
 </div>
+</div>
+</div>
+<section class="home-section bg-light">
+<div class="section-inner">
+<h2>Notre Pédagogie</h2>
+<div class="home-grid">
+<div class="home-card">
+<div class="icon-wrapper">
+<!-- Brain/Think SVG -->
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"></path>
+<path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"></path>
+</svg>
+</div>
+<h3>1. Comprendre</h3>
+<p>Saisissez la logique de base des algorithmes sans l'anxiété de la syntaxe. Comprenez le "pourquoi" avant le "comment".</p>
+</div>
+<div class="home-card">
+<div class="icon-wrapper">
+<!-- Code/Practice SVG -->
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<polyline points="16 18 22 12 16 6"></polyline>
+<polyline points="8 6 2 12 8 18"></polyline>
+</svg>
+</div>
+<h3>2. Pratiquer</h3>
+<p>Écrivez un pseudo-code universel. Décomposez des problèmes complexes du monde réel en instructions étape par étape.</p>
+</div>
+<div class="home-card">
+<div class="icon-wrapper">
+<!-- Rocket/Build SVG -->
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+<path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+<path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+<path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+</svg>
+</div>
+<h3>3. Construire</h3>
+<p>Traduisez votre logique perfectionnée dans n'importe quel langage de programmation et créez des applications réelles.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="home-section">
+<h2>Curriculum</h2>
+<div class="home-grid">
+<a href="/fr/variables.html" class="home-card">
+<div class="icon-wrapper">📦</div>
+<h3>Variables</h3>
+<p>Apprenez comment les ordinateurs stockent et récupèrent les données logiquement.</p>
+</a>
+<a href="/fr/conditionals.html" class="home-card">
+<div class="icon-wrapper">🔀</div>
+<h3>Conditionnelles</h3>
+<p>Contrôlez le flux de vos algorithmes grâce à la logique de prise de décision SI/SINON.</p>
+</a>
+<a href="/fr/loops.html" class="home-card">
+<div class="icon-wrapper">🔄</div>
+<h3>Boucles</h3>
+<p>Automatisez efficacement les tâches répétitives à l'aide des boucles POUR et TANT QUE.</p>
+</a>
+</div>
+</section>
+<!-- Footer targeted by our dynamic JS script -->
+<footer class="vp-footer" style="padding: 2.5rem; text-align: center; border-top: 1px solid var(--vp-c-border); color: var(--vp-c-text-mute); margin-top: 4rem;">
+Copyright © YouCode
+</footer>
 </div></template>
 
 
